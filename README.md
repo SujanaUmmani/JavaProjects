@@ -1,6 +1,7 @@
 Project Name: Message Processing Application
 
 Problem:
+---------
 
 Implement a small message processing application that satisfies the below requirements for
 
@@ -33,20 +34,25 @@ Message Type 2 – contains the details of a sale and the number of occurrences 
 Message Type 3 – contains the details of a sale and an adjustment operation to be applied to all stored sales of this product type. Operations can be add, subtract, or multiply e.g Add 20p apples would instruct your application to add 20p to each sale of apples you have recorded.
 
 The Solution:
+-------------
 
  The solution implements a SaleProcesser java class which will read the message one by one and process the message using MessageProcesser java class.SalesProcesser class also takes the help of AdjustPrice java class to perform sale related adjustments.
 
 Assumptions:
+----------------
 The sale items are always fruits.
 The input file is a text and is avilable on user desktop.
 There may be invalid messages but only null and empty string and String length are considered.
 The incoming messages have fixed format based on the message type e.g.; - Message Type 1 contains 3 words. - Message Type 2 contains 6 words. - Message Type 3 contains 3 words but always begin with an operational instruction such as Add, Subtract, and Multiply.
 
 How to use?
+------------
 Can run using Eclipse IDE.
 
 Developemnt Environment:
+------------------------
 Java 1.8,Junit 5 and Eclipse
 
 Junit :
+--------
 Developed the junit test cases for the service layer.Test code coverage is 75%.
